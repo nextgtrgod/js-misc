@@ -3,11 +3,11 @@ Some useful code
 
 - algorithms
 	- math
-    		- [factorial calculation function](https://github.com/nextgtrgod/js-misc/blob/master/algorithms/math/factorial.js)
-    		- [fibonacci numbers](https://github.com/nextgtrgod/js-misc/blob/master/algorithms/math/fibonacci.js)
-  	- sort
-    		- [bubble sort](https://github.com/nextgtrgod/js-misc/blob/master/algorithms/sort/bubble.js)
-    		- [quick sort](https://github.com/nextgtrgod/js-misc/blob/master/algorithms/sort/quick.js)
+		- [factorial calculation function](https://github.com/nextgtrgod/js-misc/blob/master/algorithms/math/factorial.js)
+    	- [fibonacci numbers](https://github.com/nextgtrgod/js-misc/blob/master/algorithms/math/fibonacci.js)
+	- sort
+		- [bubble sort](https://github.com/nextgtrgod/js-misc/blob/master/algorithms/sort/bubble.js)
+		- [quick sort](https://github.com/nextgtrgod/js-misc/blob/master/algorithms/sort/quick.js)
 - helpers
 	- [check browser name (for css)](https://github.com/nextgtrgod/js-misc/blob/master/helpers/checkBrowser.js)
 	- [disable scroll](https://github.com/nextgtrgod/js-misc/blob/master/helpers/disableScroll.js)
