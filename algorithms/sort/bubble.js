@@ -18,21 +18,11 @@ let bubbleSort = data => {
 		flag = false;
 		for (let i = 0; i < (data.length - 1); i++) {
 			if (data[i] > data[i + 1]) {
-				data = swap(data, i, (i + 1));
+				[ data[i], data[i + 1] ] = [ data[i + 1], data[i] ]; 
 				flag = true;
 			}
 		}
 	} while (flag);
-
-	return data;
-};
-
-// helper
-let swap = (data, firstIndex, secondIndex) => {
-	let temp = data[firstIndex];
-
-	data[firstIndex] = data[secondIndex];
-	data[secondIndex] = temp;
 
 	return data;
 };

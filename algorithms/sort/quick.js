@@ -37,7 +37,7 @@ let partition = (items, left, right) => {
             j--;
         };
         if (i <= j) {
-            swap(items, i, j);
+            [ data[i], data[j] ] = [ data[j], data[i] ]; 
             i++;
             j--;
         }
